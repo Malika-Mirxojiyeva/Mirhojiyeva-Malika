@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(35, 35, 35);
+    justify-items: center;
+    position: fixed;
+}
+
+.navbar{
+   text-align: center;
+}
+
+.menu-list{
+    list-style: none;
+    display: inline;
+}
+
+.href-menu{
+    text-decoration: none;
+    color: #b8b7b7;
+    font-weight: 100;
+    line-height: 21.38px;
+    text-align: center;
+    margin-inline-end: 100px;
+    font-size: 18px;
+}
+
+.href-menu:hover{
+    color: white;
+}
+
+#home{
+    height: 100%;
+    margin-block-end: 200px;
+}
+.home-div{
+    display: flex;
+}
+
+.name-div{
+    align-items: center;
+    margin-block-start: 110px;
+}
+
+.name{
+    height: 136px;
+    width: 447px;
+    font-family: 'NEXT ART';
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.lorem{
+    margin-block-start: 120px;
+    height: 74px;
+    width: 430px;
+    left: 375px;
+    font-family: Arodora Pro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.href{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin-block-end: 50px;
+    text-decoration: none;
+    color: black;
+    height: 47px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.href:hover{
+    color: azure;
+    background-color:black;
+    border: 2px solid white;
+}
+.block{
+    display: block;
+    top: 103px;
+    height: 520px;
+    position: relative;
+    left: 25px;
+}
+
+.circle-block{
+    position: absolute;
+}
+
+.user-png{
+    width: 327px;
+    display: inline;
+}
+
+.image-user{
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 27px;
+}
+
+.circle{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 21px solid #00C4F0;
+    border-radius:50%;
+    z-index: -1;
+}
+
+.circle-skill{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -1;
+    left: 31px;
+    top: 6px;
+}
+
+.circle-skill1{
+    padding-top: 15px;
+    color: #00C4F0;
+    font-weight:700;
+    font-size: 36px;
+    height: 41px;
+    width: 42px;
+    text-align: center;
+}
+
+.circle-skill2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -1;
+    left: 264px;
+}
+
+.circle-skill3{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        background-color: black;
+        border-radius: 50%;
+        z-index: -1;
+        left: -31px;
+        top: 191px;
+}
+
+.circle-skill4{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -1;
+    top: 106px;
+    left: 327px;
+}
+
+
+.circle-skill5{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -1;
+    left: 320px;
+    top: 228px;
+}
+
+
+/* about page */
+
+
+#about{
+    height: 820px;
+}
+
+.about-items{
+    text-align:center;
+}
+
+.design{
+    width: 250px;
+    height: 250px;
+    left: 365px;
+    top: 900px;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    box-sizing: border-box;
+    color: azure;
+    display: inline-block;
+    margin-block-start: 100px;
+    margin-inline-end: 25px;
+}
+
+.design:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.block-design{
+   margin-block-start: 115px;
+}
+
+#portfolio{
+    height: 820px;
+    display: flex;
+}
+
+#image-portfolio{
+    border-radius: 50%;
+    width: 300px;
+    height: 330px;
+    margin-block-start: 100px;
+}
