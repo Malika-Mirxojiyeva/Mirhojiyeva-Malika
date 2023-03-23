@@ -198,7 +198,7 @@ header{
 
 
 #about{
-    height: 820px;
+    height: max-content;
 }
 
 .about-items{
@@ -228,6 +228,10 @@ header{
    margin-block-start: 115px;
 }
 
+.about-title{
+    text-align: center;
+    font-family: sans-serif;
+}
 #portfolio{
     height: 820px;
     display: flex;
@@ -238,4 +242,16 @@ header{
     width: 300px;
     height: 330px;
     margin-block-start: 100px;
+    background-repeat: no-repeat;
+    background-image:none;
 }
+
+@media screen and (min-width: 480px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .image-user{
+      display: inline-block;
+    }
+  }
