@@ -41,8 +41,8 @@ header{
 }
 
 #home{
-    height: 100%;
     margin-block-end: 200px;
+    display: flex;
 }
 .home-div{
     display: flex;
@@ -207,8 +207,8 @@ header{
 }
 
 .design{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     /* left: 365px;
     top: 900px; */
     background: #2A2A2A;
@@ -223,6 +223,16 @@ header{
 
 .design:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.block-design{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.conteyner-design{
+    text-align: center;
+    padding-top: 70px;
 }
 
 .about-title{
@@ -241,22 +251,37 @@ header{
     height: 330px;
     margin-block-start: 100px;
     background-repeat: no-repeat;
-    background-image:none;
+    background-image: none;
 }
 
 @media screen and (max-width: 480px) {
     body{
         padding: 0;
         margin: 0;
+        width: auto;
+        height: auto;
     }
-    .image-user{
-      display: inline-block;
+
+    #about{
+        height: 820px;
+    }
+
+    #home{
+        height: 820px;
+    }
+
+    .block{
+        display: block;
+    }
+
+    .user-png{
+        display: block;
     }
 
     .design{
         text-align: center;
-        width: 150;
-        height: 150;
+        width: 150px;
+        height: 150px;
         font-size: 18px;
         text-align: center;
         display: table-row;
